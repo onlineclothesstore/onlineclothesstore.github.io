@@ -1,0 +1,9 @@
+<!DOCTYPE html> <html> <head lang="en"> <meta charset="UTF-8"> <title></title>  <body> <div class="col-xs-10 col-xs-offset-1"> <h2>{{ ctrl.full_name }}</h2> <h4>{{ ctrl.username }}</h4>  <img ng-src="{{ ctrl.profile_picture }}" alt="" class="img-responsive">  <div ng-repeat="line in ctrl.bio"> <div> <h3>{{ line }}</h3> </div> </div>  <h2>Напишите нам:</h2> <div id="disqus_thread"></div> <script type="text/javascript">/* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'onlineclothesstore';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();</script> <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript> </div>  
